@@ -1,0 +1,58 @@
+body {
+    background-color: #282828;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #b7b7b7;
+}
+
+body {
+    color : #b8b8b8;
+}
+strong {
+    color : #606060;
+}
+
+/* single lines of code */
+code {
+    background-color : #171717;
+}
+
+/* snippets of highlighted code */
+pre {
+    background-color : #171717;
+}
+
+table {
+    background-color : #171717;
+}
+
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+    background-color: #000;
+}
+
+.message {
+    background-color: #171717;
+}
+
+.page-title,
+.post-title,
+.post-title a {
+    color: #a2a2a2;
+}
+.post-date {
+    color: #5a5a5a;
+}
+
+/* Terminal Green theme */
+.theme-term-green .sidebar,
+.theme-term-green .sidebar-toggle:active,
+.theme-term-green #sidebar-checkbox:checked ~ .sidebar-toggle {
+    background-color: #a0ff50;
+}
+.theme-term-green .container a,
+.theme-term-green .sidebar-toggle,
+.theme-term-green .related-posts li a:hover {
+    color: #00ff00;
+}

@@ -1,0 +1,22 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               subBasement
+tagline:             'a generic blog'
+description:         'unbelievably unoriginal'
+url:                 http://hahahahaman.github.io/
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Ed Ye
+  url:               https://twitter.com/pseudobasement
+  email:             hahahadude@gmail.com
+
+# Custom vars
+version:             DEEPunder
