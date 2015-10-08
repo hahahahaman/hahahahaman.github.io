@@ -1,6 +1,6 @@
 ---
 layout: post
-title: /_\  /_\ 
+title: ~~/_\  /_\~~ 
 ---
 
 **Appearance** really changes the impression I have on this *place*.
