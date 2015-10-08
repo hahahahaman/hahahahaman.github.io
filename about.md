@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-I am an unemployed sociopath, purposely stuck in a state of perpetual childishness in order to, counterintuitively, transcend adulthood. Basically I hang around 4chan 13 hours a day reading about insect fetishes.
+I am an unemployed sociopath, purposely stuck in a state of perpetual childishness in order to, counter-intuitively, transcend adulthood. Basically I hang around 4chan 13 hours a day reading about insect fetishes.
 
 <code>Remind you of anyone?</code>
 
