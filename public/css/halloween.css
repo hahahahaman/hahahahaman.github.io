@@ -1,0 +1,61 @@
+/* halloween theme */
+.theme-halloween {
+    background-color: #000;
+    color : #A1B56C;
+}
+
+.theme-halloween h1,
+.theme-halloween h2,
+.theme-halloween h3,
+.theme-halloween h4,
+.theme-halloween h5,
+.theme-halloween h6,
+.theme-halloween .page-title,
+.theme-halloween .post-title
+{
+    color: #548333;
+}
+
+.theme-halloween strong,
+.theme-halloween abbr {
+    color : #ab4642;
+}
+
+/* single lines of code */
+.theme-halloween code {
+    color : #ab4642;
+}
+.theme-halloween .message,
+.theme-halloween blockquote,
+.theme-halloween .masthead-title small {
+    color : #a1b56c;
+}
+
+.theme-halloween pre, /* snippets of highlighted code */
+.theme-halloween table,
+.theme-halloween .message,
+.theme-halloween code { 
+    background-color : #171717;
+}
+
+.theme-halloween tbody tr:nth-child(odd) td,
+.theme-halloween tbody tr:nth-child(odd) th {
+    background-color: #000;
+}
+
+ 
+.theme-halloween .post-title a,
+.theme-halloween .post-date {
+    color: #999;
+}
+
+.theme-halloween .sidebar,
+.theme-halloween .sidebar-toggle:active,
+.theme-halloween #sidebar-checkbox:checked ~ .sidebar-toggle {
+    background-color: #d28445;
+}
+.theme-halloween .container a,
+.theme-halloween .sidebar-toggle,
+.theme-halloween .related-posts li a:hover {
+    color: #d28445;
+}
