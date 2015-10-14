@@ -5,9 +5,9 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               subBasement
-tagline:             'a generic blog'
-description:         'unbelievably unoriginal'
+title:               'really big'
+tagline:             'reallyreallybig'
+description:         'reallyreallyreallyreally'
 url:                 http://hahahahaman.github.io/
 baseurl:             ''
 paginate:            5
@@ -19,4 +19,4 @@ author:
   email:             hahahadude@gmail.com
 
 # Custom vars
-version:             DEEPunder
+version:             erybig
