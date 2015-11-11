@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Adding text, the weekly update.
+title: Adding text.
 ---
 
 ### freetype2
