@@ -10,9 +10,9 @@ opengl, which is alright. It's actually really a pain in the ass to add
 features, because I have to learn the common lisp library associated with
 whatever
 [tutorial](https://en.wikibooks.org/wiki/OpenGL_Programming/Modern_OpenGL_Tutorial_Text_Rendering_01)
-I'm referencing from. Common Lisp libraries are pretty annoying since they
+I'm referencing from. Common Lisp libraries are usually a hassle since they
 usually don't come with much documentation (this is also part of the fun
-                                                 though), [cl-freetype2](https://github.com/rpav/cl-freetype2) is pretty lacking
+though), [cl-freetype2](https://github.com/rpav/cl-freetype2) is pretty lacking
 in its explanation, so I dove in for a few days looking at the way it's setup.
 It's pretty clever? the way it's been written, I'm actually not sure since I
 don't look at ffi stuff too much. The most confusing part about it was this
@@ -28,8 +28,8 @@ in [err](https://github.com/hahahahaman/err).
 
 ### general outlook
 
-I've been listening to this rachmaninoff symphony 2 op 27 iii a lot. It has this
-wondering feeling about it.
+I've been listening to rachmaninoff a lot. It has this wandering feeling about
+it.
 
 My time working on my personal projects is beginning to worry me a bit. Now that
 I can, I constantly indulge in my obsessive tendencies in my work and it's
