@@ -18,9 +18,9 @@ It's pretty clever? the way it's been written, I'm actually not sure since I
 don't look at ffi stuff too much. The most confusing part about it was this
 group of _wrap_ macros that created lisp functions and objects around the
 foreign objects, for instance _defcwraptype_ does stuff like making access to a
-C structs the same as one would access Lisp structs\; this was weird because I
+C structs the same as one would access Lisp structs; this was weird because I
 inspected these objects and thought they were foreign. It's pretty nice and
-simple, after I finally understood what was going on\; really the only goal was
+simple, after I finally understood what was going on; really the only goal was
 to abstract the foreign stuff to be more lispy, but I thought I had to approach
 everything as if it was foreign to access the info I need for the tutorial. Text
 drawing works now, but I'm kind of dishearten by the impending work to get sound
