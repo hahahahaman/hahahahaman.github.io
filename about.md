@@ -15,12 +15,12 @@ failure that is society.
 -->
 
 She turned toward him, with a stern expression, "The room seats seven." Pausing
-for a moment, his brow furrowed slightly, unsure what to make of that statement.
+for a moment, his brow furrowed, slightly, unsure what to make of that statement.
 He surveyed the grayish white interior. It was minimally furnished; a varnished,
-light mahogany desk faced the door. Two bookshelves stood together behind it;
-two small frames hung on the sides of the room, one contained an entirely blue
-painting of a dark navy blue background with smears and strokes of milder
+light mahogany desk faced the door; two bookshelves stood together behind it;
+two small frames hung on the sides of the room; one contained an entirely blue
+painting of a dark navy blue background, with smears and strokes of milder
 shades; the other was of two rectangles, one of solid black, it was the larger
-of the two, and the second was colored by a dull violet. The chair behind the
+of the two, and the second was colored by a dull violet; the chair behind the
 desk put him off, it was pure white, standing out amongst the rest of the of the
 room.

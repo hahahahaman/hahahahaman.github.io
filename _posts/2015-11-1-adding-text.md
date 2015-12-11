@@ -9,8 +9,8 @@ Adding text was tiring, but I've gotten better at figuring out how to use
 opengl. It's actually really a pain in the ass to add features, because I have
 to learn the Common Lisp library associated with whatever
 [tutorial](https://en.wikibooks.org/wiki/OpenGL_Programming/Modern_OpenGL_Tutorial_Text_Rendering_01)
-I'm referencing from. The more obscure Common Lisp libraries can be a hassle
-since they usually don't come with much documentation (this is also part of the
+I'm referencing from. Quite a few Common Lisp libraries can be a hassle since
+they don't come with much documentation (this can also part of the (masochistic)
 fun though), [cl-freetype2](https://github.com/rpav/cl-freetype2) is pretty
 lacking in its explanation, so I dove in for a few days looking at the way it's
 setup. It's pretty clever(?) the way it's been written, I'm actually not sure
@@ -18,13 +18,12 @@ since I don't look at foreign function interface code too much. The most
 confusing part about it was this group of _wrap_ macros that created lisp
 functions and objects around the foreign objects, for instance _defcwraptype_
 does stuff, like making access to a C struct the same as one would access Lisp
-structs. This was weird because I inspected these objects and thought they were
-foreign. This approach is actually pretty nice and simple, after I finally
+structs. This approach is actually pretty nice and simple, after I finally
 understood what was going on; really the only goal was to abstract the foreign
-aspects to be more lispy, but I thought I had to approach everything as if it
-was foreign, in order access the info I needed for the tutorial. Text drawing
-works now, but I'm kind of dishearten by the impending work to get sound in
-[err](https://github.com/hahahahaman/err).
+aspects to be more lispy.
+
+Text drawing works now, but I'm kind of dishearten by the impending work to get
+sound in [err](https://github.com/hahahahaman/err).
 
 ### general outlook
 

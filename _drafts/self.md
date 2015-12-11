@@ -9,6 +9,6 @@ replace entity component systems.
 
 Pharo Smalltalk what is?
 
-
 Randy Smith's demos
+
 [Selftalk]: https://www.youtube.com/watch?feature=player_embedded&v=3ka4KY7TMTU
