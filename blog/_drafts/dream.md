@@ -17,3 +17,5 @@ everything on bikes and follow buses
 - go into town following, buses, see huge group of people,
 - walk around, someone tells the group that they must separate into the
   segregated racial groups, argument erupts
+
+-large beetle shaped ticks crawling around my body

@@ -20,10 +20,10 @@ follow the progression of vague, ambiguous symbolism that is presented; math and
 English being examples of such a set of symbols. The worst situation I can
 really imagine is that a person ignorant to the fact they are describing a
 specific idea, using language rife with ambiguity, creates misinformation,
-leading to confusion in its conception even within themselves.
+leading to confusion of the concept, even to themselves.
 
-Carl Jung alludes to the fact that because of unique traits in all of us the
-meaning of words can vary.
+Carl Jung alludes to the fact that because of unique traits and experiences in
+all of us the meaning of words can vary.
 
 [dont know how to compute]: https://www.youtube.com/watch?v=O3tVctB_VSU
 [role of programming]: https://www.youtube.com/watch?v=arMH5GjBwUQ

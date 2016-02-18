@@ -2,7 +2,17 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
+# relative_permalinks: true
+
+# Location of things
+source:              .
+destination:         ./_site/
+layouts_dir:         ./blog/_layouts
+data_dir:            ./blog/_data
+includes_dir:        ./blog/_includes
+drafts_dir:          ./blog/_drafts
+posts_dir:           ./blog/_posts
+
 
 # Setup
 title:               'really big'
@@ -11,6 +21,7 @@ description:         'reallyreallyreallyreally'
 url:                 http://hahahahaman.github.io/
 baseurl:             ''
 paginate:            5
+paginate_path:       "/blog/page:num/"
 
 # About/contact
 author:
@@ -20,3 +31,5 @@ author:
 
 # Custom vars
 version:             erybig
+
+gems: [jekyll-paginate]
