@@ -1,0 +1,38 @@
+
+"Bureau of Justice Statistics"
+"Tool Title:  NCVS Victimization Analysis Tool (NVAT)"
+"Data source: BJS, National Crime Victimization Survey"
+"Refer questions to: askbjs@usdoj.gov or (202) 307-0765"
+
+"Number of rape/sexual assaults, robberies, aggravated assaults, and  simple assaults by sex, 2014"
+
+
+"Crime Type",,,,,2014,, 
+,"Rape/Sexual Assault",,,, 284345, , 
+,,"Male",,, 28032, ! , 
+,,"Female",,, 256313, , 
+,"Robbery",,,, 664211, , 
+,,"Male",,, 395544, , 
+,,"Female",,, 268668, , 
+,"Aggravated Assault",,,, 1092091, , 
+,,"Male",,, 660072, , 
+,,"Female",,, 432019, , 
+,"Simple Assault",,,, 3318923, , 
+,,"Male",,, 1657905, , 
+,,"Female",,, 1661018, , 
+
+
+
+
+Footnotes:
+*  Special tabulations from the NCVS Victimization Analysis Tool (NVAT).
+"*  Detail may not sum to total due to rounding and/or missing data."
+
+==
+
+"!  Interpret data with caution, based on 10 or fewer sample cases or the coefficient of variation is greater than 50%."
+
+"Report Generated:  February 22, 2016 13:22 PM" 
+
+
+"Suggested Citation: Bureau of Justice Statistics. (Insert table title). Generated using the NCVS Victimization Analysis Tool at www.bjs.gov. 22-Feb-16 
