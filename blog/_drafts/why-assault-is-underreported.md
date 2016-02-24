@@ -26,9 +26,9 @@ The second claim is that rape remains one of the most grossly underreported
 crimes citing,
 "[Reporting Rates](https://www.rainn.org/get-information/statistics/reporting-rates)",
 from the Rape, Abuse and Incest National Network (RAINN), which make several
-claims, including, "just 2 percent of rapists serve jail time" :
+claims, including, "only about 2% of rapists will ever serve a day in prison."
 
-> **Why Will Only 2 Out of Every 100 Rapists Serve Time?**
+>"**Why Will Only 2 Out of Every 100 Rapists Serve Time?**"
 > ![Rapist infographic](./data/rape/jailed-rapists2014.jpg)
 
 As you can see, each of these data bars has a reference :
@@ -46,7 +46,7 @@ Then that data is used to come to the conclusion that "the other 98 [rapists]
 will walk free". These sources are publicly available and I will be looking at
 these different references.
 
-# Rape is grossly underreported?
+## Rape is grossly underreported?
 
 I will look at the Bureau of Justice Statistics'
 [2014 National Crime Victimization Survey](http://www.bjs.gov/content/pub/pdf/cv14.pdf)
@@ -118,10 +118,10 @@ the survey as shown on [page 2, table 1][ncvs2] for violent crime and
 
 ![victimizations-2014](./data/rape/NVAT-data/victimizations-2014.png)
 
-These estimates show that rape and sexual assault victimizations are ~5.3% of
-violent crime victimizations and ~13.9% of serious violent crime victimizations.
+These estimates also show that rape and sexual assault accounts for ~13.9% of
+serious violent crime victimizations.
 
-Here I'll look at the absolute number of reported and unreported victimizations
+Here I'll look at the number of reported and unreported victimizations
 of violent crimes by using the data from
 [page 2, table 1, "Violent victimizations"][ncvs2], and [page 7, table 6, "Percent of
 victimizations reported to police, by type of crime"][ncvs7] (similar data can
@@ -179,33 +179,35 @@ victimizations.
 
 ### Is it fair to compare the number of unreported victimizations, rather than compare the percentage of unreported victimizations? 
 
-Someone is claiming that a crime is **grossly** underreported. Also,
-hypothetically, if someone were to try to claim that rape culture exists in the
-U.S, this data might be useful. Looking at the number of reported and unreported
-victimizations gives context to the societal trends of reporting crime to the
-police and gives information on how prevalent each crime is in society.
-Including the numbers gives a broader picture of the effect of different crimes
-in the society, rather than trying, without context, to impress upon people
-that, because something has a certain number, it means society is ill. Rape and
-sexual assault has the least reported and unreported victimizations and the
-least number of victimizations of any violent crime in the NCVS.
+The claim that rape and sexual assault is **grossly** underreported didn't even
+compare its report rate to other crimes; there was no context to what was an
+underreported, over reported, and averagely reported crime. Looking at the
+number of reported and unreported victimizations gives context to the societal
+trends of reporting crime to the police and gives information on how prevalent
+each crime is in society. Including the numbers gives a broader picture of the
+effect of different crimes in the society, rather than trying to impress upon
+people, that, because something has a certain number, it means society is ill.
+Rape and sexual assault has the least reported and unreported victimizations and
+the least number of victimizations of any violent crime in the NCVS.
 
 ### Why is the number of rape and sexual assault victimizations low in comparison to other violent crimes if "[Rape Culture is Real](http://time.com/40110/rape-culture-is-real/)"?
 
->"[Nearly 1 in 5 women (18.3%) and 1 in 71 men (1.4%) in the United States have been raped at some time in their lives, including completed forced penetration, attempted forced penetration, or alcohol/drug facilitated completed penetration][nisvs1]"
+>"[Nearly 1 in 5 women (18.3%) and 1 in 71 men (1.4%) in the United States have been raped at some time in their lives, including completed forced penetration, attempted forced penetration, or alcohol/drug facilitated completed penetration.][nisvs1]"
+
+Could there be more victims of rape that are even unwilling to speak of the
+crime to NCVS interviewers? Can I believe the estimates that the NCVS provides
+for these violent crimes?
+
+RAINN believes this data, and cites this series of surveys in their "Reporting
+Rates" page that was cited in the original Huffington Post article. But, maybe
+that is not enough to give the numbers credibility.
 
 "The National Crime Victimization Survey (NCVS) collects information on nonfatal
 crimes, reported and not reported to the police, against persons age 12 or older
 from a nationally representative sample of U.S. households. During 2014, about
 90,380 households and 158,090 persons were interviewed for the NCVS," the Bureau
 of Justice Statistics
-[describes](http://www.bjs.gov/index.cfm?ty=pbdetail&iid=5366). Can I believe
-the estimates that the NCVS provides for these violent crimes? Could there be
-more victims of rape that are even unwilling to speak of the crime to NCVS
-interviewers? 
-
-RAINN believes this data, and cites this series of surveys in their "Reporting
-Rates" page that was cited in the original Huffington Post article.
+[describes](http://www.bjs.gov/index.cfm?ty=pbdetail&iid=5366).
 
 The survey itself perhaps gives some insight into its low numbers, saying, "BJS
 estimates of rape and sexual assault from the NCVS have typically been lower
@@ -253,80 +255,75 @@ Other reasons for the relatively low number of victimizations? Perhaps violent r
 often affects more than 1 person, unlike rape and sexual assault does? Thus the
 number of victimizations of robbery are multiplied, being much higher than the
 number of incidents. What about assault? The same treatment? Victimizations are
-some multiple of the incidents?
+some multiple of the incidents? NSVS does not include number of incidents, so it
+is unclear how many victims there are per incident.
 
-We can look at victimizations per victim for each type of violent crime to see
-how often a victim is repeatedly victimized (data from [page 2][ncvs2] and
-[page 5][ncvs5]) :
+There is also the gender issue of rape and sexual assault, since women are more
+likely to be raped. *This could make the crime seem less impactful compared to
+other crimes, since it mainly affects women.* If it is true that women are the
+majority of rape and sexual assault victims it does not provide implications of
+a women hating society; it would be a fallacy to think that different crimes
+have an equal number of male and female victims. [Page 6, table 5][ncvs6] shows
+that for 2014 the number of people victimized by violent crime for men and women
+is almost equal: 1,497,430 men and 1,451,110 women are estimated to be victims.
+This means that men must be more likely to be victims of some other form of
+violent crime if women are mainly the victims of rape and sexual assault.
 
-{% highlight js %}
-Victimizations per Victim 2014
-
-equation
-victimizations / victims = victimizations per victim
-
-Rape and Sexual Assault
-284,350 / 150,420     =  ~1.890
-
-Robbery
-664,210 / 435,830     =  ~1.524
-
-Aggravated Assault
-1,092,090 / 681,280   =  ~1.603
-
-Simple Assault
-3,318,920 / 1,842,100 =  ~1.802
-
-{% endhighlight %}
-
-Rape and sexual assault does have a slightly above average number of victims
-repeatedly being victimized, with robbery being the least likely crime to
-repeatedly experience. This does not show how many people are affected per crime
-incident, but it does show that victimizations of rape, sexual assault, and
-simple assault affect a more concentrated group of victims, relative to robbery
-and aggravated assault. It is possible that these crimes are more easily
-repeated on victims.
-
-There is also the gender issue of rape and sexual assault, since stated above,
-women are more likely to be raped. *This could make the crime seem less impactful
-compared to other crimes, since it mainly affects women.* If this is true it does
-not provide implications of a women hating society; it would be a fallacy to
-think that crimes have an equal number of male and female victims.
-[Page 6, table 5][ncvs6] shows that for 2014 the number of people victimized by
-violent crime for men and women is almost equal: 1,497,430 men and 1,451,110
-women are estimated to be victims. This means that men must be more likely to be
-victims of some other form of violent crime if women are mainly the victims of
-rape and sexual assault.
-
-Here is a graph using NCVS data :
+Here is a graph using NVAT data :
 ![nvat-gender-2014-graph](./data/rape/NVAT-data/victimization-gender-2014.png)
 
-Now looking at some of the FBI UCR. Here is a glimpse at the FBI's system, "The
-data presented in *Crime in the United States* reflect the Hierarchy Rule, which
-requires that only the most serious offense in a multiple-offense criminal
-incident be counted. The descending order of UCR violent crimes are murder and
-nonnegligent manslaughter, rape, robbery, and aggravated assault, followed by
-the property crimes of burglary, larceny-theft, and motor vehicle theft." (from
-[here][fbi-violent]) The [FBI Uniform Crime Reports, Table 1][fbi-crime], data
-shows that estimates of rape are the second lowest estimates of any violent
-crime, in every year, only murder and nonnegligent manslaughter is more rare.
-NCVS does not include homicide, since it involves interviews with victims.
-[NCVS page 5][ncvs5] shows that the rape and sexual assault has the least number
-for victims of any form of crime.
+##### Side Note: There also might be concern that women are not reporting crimes enough? :
 
-The FBI revised their rape definition in 2013 to include more sexual offenses,
-the revised [definition][fbi-rape] is: 
+Data is from [NVAT custom tables][ncvs-trend-tool].
+
+![reported-unreported-gender-2014](./data/rape/NVAT-data/reported-unreported-gender-2014.png)
+
+![percent-reported-unreported-gender-2014](./data/rape/NVAT-data/percent-reported-unreported-gender-2014.png)
+
+In all forms of violent crime in the NCVS victimizations of females are reported
+to police at a higher percentage than for victimizations of males of the same type
+of crime.
+
+Be careful of the male rape and sexual assault data; NVAT warns : "Interpret
+data with caution, based on 10 or fewer sample cases or the coefficient of
+variation is greater than 50%."
+
+### Now looking at some of the FBI UCR.
+
+Here is a glimpse at the FBI's system, "The data presented in *Crime in the
+United States* reflect the Hierarchy Rule, which requires that only the most
+serious offense in a multiple-offense criminal incident be counted. The
+descending order of UCR violent crimes are murder and nonnegligent manslaughter,
+rape, robbery, and aggravated assault, followed by the property crimes of
+burglary, larceny-theft, and motor vehicle theft." (from [here][fbi-violent])
+The [FBI Uniform Crime Reports, Table 1][fbi-crime], data shows that estimates
+of rape are the second lowest estimates of any violent crime, in every year,
+only murder and nonnegligent manslaughter is more rare. NCVS does not include
+homicide, since it involves interviews with victims. [NCVS page 5][ncvs5] shows
+that the rape and sexual assault has the least number of victims of any form of
+crime.
+
+The FBI revised their rape definition in 2013 to include more sexual offenses.
+
+The [old definition][fbi-definitions2011], under the title Forcible rape, is :
+
+>The carnal knowledge of a female forcibly and against her will. Rapes by force
+>and attempts or assaults to rape, regardless of the age of the victim, are
+>included. Statutory offenses (no force used―victim under age of consent) are
+>excluded.
+
+The revised [definition][fbi-rape] is: 
 
 >Penetration, no matter how slight, of the vagina or anus with any body part or
 >object, or oral penetration by a sex organ of another person, without the
 >consent of the victim. Attempts or assaults to commit rape are also included;
 >however, statutory rape and incest are excluded.
 
-This bears resemblance to definitions from the other data, but is more narrow.
-Table 1 does not include the revised definition, but [Table 2][fbi-crime2013]
-does. The FBI data does not include sexual assault or simple assault. It does
-include murder and nonnegligent manslaughter. Looking at violent crimes from
-Table 2:
+This bears resemblance to rape definitions from the other data, but is more
+narrow. Table 1 does not include the revised definition, but
+[Table 2][fbi-crime2013] does. The FBI's violent crime data (Table 1 to Table
+24) does not include sexual assault or simple assault. It does include murder
+and nonnegligent manslaughter. Looking at violent crimes from Table 2:
 
 ##### Violent Crime in the United States, by type, 2013
 
@@ -339,14 +336,16 @@ Table 2:
 
 * [ For reference, Rape (legacy definition) : 79,770 ]
 
-##### Percentage of Violent Crime, by type, 2013
+<!-- ##### Percentage of Violent Crime, by type, 2013 -->
 
-* Murder and Nonnegligent Manslaughter : ~1.2%
-* Rape (revised definition) :  ~9.1%
-* Robbery : ~28.9%
-* Aggravated Assault : 	~60.8%
+<!-- * Murder and Nonnegligent Manslaughter : ~1.2% -->
+<!-- * Rape (revised definition) :  ~9.1% -->
+<!-- * Robbery : ~28.9% -->
+<!-- * Aggravated Assault : 	~60.8% -->
 
 ![FBI-violent-crime-2013](./data/rape/violent-crime-2013.png)
+
+### To conclude why victimizations are low: 
 
 It would seem reasonable to say that, in this case, because rape has less
 victims there are less victimizations than other forms of violent crime from the
@@ -356,81 +355,157 @@ NCVS.
 
 Data from [page 2][ncvs2] and [page 5][ncvs5].
 
-Though it was shown, and can be seen on the graph, that rape and sexual assault
-victims are slightly more likely to repeatedly be victimized by the same type of
-crime, the correlation between number of victims of a violent crime and
-number of victimizations of a violent crime is quite linear.
+It can be seen on the graph, that rape and sexual assault victims are slightly
+more likely to repeatedly be victimized by the same type of crime. The
+correlation between number of victims of a violent crime and number of
+victimizations of a violent crime is quite linear, though.
 
 ##The RAINN "Report Rates" page is shocking in how much misinformation it presents.
 
-It misrepresents the data from the NCVS saying that "out of every 100 rapes, 32
-get reported to police". The data from the table,
+It misrepresents the data from the NCVS saying that:
+
+>"The majority of sexual assault are not reported to the police (an average of
+>68% of assaults in the last five years were not reported). Those rapists, of
+>course, will never spend a day in prison."
+
+The data from the table,
 ["Percent of victimizations reported to police, by type of crime,"][ncvs7]
-composes two different definitions, rape and sexual assault. A subdivision of
-the two is not provided in the 2014 edition (in 2008 and earlier editions have
-subdivison of victimization, but not for percentage reported to police), so it
-is unclear how often either is reported. It is possible that sexual assault is
-reported more often than rape, thus less than 33.6% of rape victimizations are
-reported, and it is also possible that rape is more often reported and sexual
-assault is reported less. There is also the combination of rape and attempted
-rape, that is unclear how often either is reported, and may be a factor if
-victims trivialize attempted rape. The NCSV definitions of rape and sexual
-assault are different, "Sexual assault is defined across a wide range of
-victimizations, separate from rape or attempted rape," but, these two crimes are
+composes [two different definitions, rape and sexual assault][ncvs13]: "Sexual assault is
+defined across a wide range of victimizations, separate from rape or attempted
+rape. These crimes include attacks or attempted attacks generally involving
+unwanted sexual contact between a victim and offender." These two crimes are
 lumped together in the data. "Sexual assault may or may not involve force and
 includes grabbing or fondling," which is a rather broad definition that
-contributes to the number of victimizations. The data that RAINN cites uses
-victimizations of rape and sexual assault reported to police, not rapists or
-number of rapes reported to police. Their claims citing the NCVS are misleading.
+contributes to the number of victimizations. A subdivision of the two is not
+provided in the 2014 edition (2008 and earlier editions have subdivison of
+victimizations, but not for percentage reported to police), so it is unclear how
+often either is reported. It is possible that sexual assault is reported more
+often than rape, thus less than 33.6% of rape victimizations were reported for
+2014, and it is also possible that rape is more often reported and sexual
+assault is reported less. There is also the combination of rape and attempted
+rape, that is unclear how often either is reported, and may be a factor if
+victims trivialize attempted rape. The NCVS definitions of rape and sexual
+assault are different, and also, the data that RAINN cites uses victimizations
+of rape and sexual assault reported to police, not rapists or number of rapes
+reported to police. Their claims citing the NCVS are misleading. How do they
+"factor in unreported rapes"?
 
 It is not apparent where RAINN obtained their second and third statistics from
-the FBI UCR. The claims say, "out of 100 rapes, 7 lead to arrest and 3 are
+the FBI UCRs. The claims say, "out of 100 rapes, 7 lead to arrest and 3 are
 referred to prosecutors."
 [Estimated Number of Arrests, 2013, Table 29][fbi-arrests2013] shows that there
-were 16,863 arrests whose most serious offense was rape and Table 2 estimates
-108,612 rapes. That is ~0.155 arrests per incident for rape, or ~15.5 arrests
-every 100 incidents. For [2010 arrests][fbi-arrests2010], the last year of UCRs
-RAINN cites, which uses the legacy definition, there were 20,088 arrests whose
-most serious offense was forcible rape and from [UCR Table 1][fbi-crime], 2010
-had 85,593 estimated incidents of rape. That is ~0.235 arrests per incident, or
-~23.5 arrests per 100 incidents.
+were 16,863 arrests whose most serious offense was rape and
+[Table 2][fbi-crime2013] estimates 108,612 rapes. That is ~0.155 arrests per
+incident for rape, or ~15.5 arrests every 100 incidents. For
+[2010 arrests][fbi-arrests2010], the last year of UCRs RAINN cites, which uses
+the legacy definition of rape, there were 20,088 arrests whose most serious
+offense was forcible rape and from [UCR Table 1][fbi-crime], 2010 had 85,593
+estimated incidents of rape. That is ~0.235 arrests per incident, or ~23.5
+arrests per 100 incidents. The 2013 arrests data also has 57,925 arrests for
+"Sex offenses (except rape and prostitution)," which probably includes statutory
+rape and other forms of sexual assault.
+[FBI UCR offenses cleared data][fbi-clearances2013] does not specify the number
+of people turned over to courts for prosecution. The definition of a cleared
+offense includes, but is not limited to, being referred to a prosecutor, and
+data on the number of each type of clearance is not provided. 
 
-Here is a graph comparing arrests to incidents for violent crimes in 2013:
+Here are portions of the definitions :
 
-Why is the percentage of rape and sexual assault victimizations reported to
-police so much lower in comparison to other violent crimes? It appears unclear
-to me from this data. Speculating reasons is different from claiming that rape
-and sexual assault is an actual cultural norm or even that this percentage is an
-urgent problem that needs to be addressed. Many more people claim to be victims
+> In the FBI’s Uniform Crime Reporting (UCR) Program, law enforcement agencies
+> can clear, or “close,” offenses in one of two ways: by arrest or by
+> exceptional means.
+
+> **Cleared by Arrest**: 
+>In the UCR Program, a law enforcement agency reports
+>that an offense is cleared by arrest, or solved for crime reporting purposes,
+>when three specific conditions have been met. The three conditions are that at
+>least one person has been: 
+>
+> - Arrested.
+>
+> - Charged with the commission of the offense.
+>
+> - Turned over to the court for prosecution (whether following arrest,
+>court summons, or police notice).
+
+> **Cleared by exceptional means**:
+>
+> In certain situations, elements beyond law enforcement’s control prevent the
+> agency from arresting and formally charging the offender. When this occurs,
+> the agency can clear the offense exceptionally. Law enforcement agencies must
+> meet the following four conditions in order to clear an offense by exceptional
+> means. The agency must have:
+>
+> - Identified the offender.
+> 
+> - Gathered enough evidence to support an arrest, make a charge, and turn over
+> the offender to the court for prosecution.
+> - Identified the offender’s exact location so that the suspect could be taken
+>   into custody immediately.
+> - Encountered a circumstance outside the control of law enforcement that
+> prohibits the agency from arresting, charging, and prosecuting the offender.
+
+[Read the page][fbi-clearances2013] for more detailed defintions, and see
+[Table 25][fbi-cleared2013] for the data.
+
+I also want to point out that: just because someone has been arrested for
+a crime, it doesn't mean they committed the crime.
+
+#### Here are graphs comparing arrests of violent crimes in 2013:
+
+![arrests-incidents-2013](./data/rape/arrests-incidents-2013.png)
+![FBI-violent-crime-2013](./data/rape/violent-crime-2013.png)
+![arrests-2013](./data/rape/arrests-2013.png)
+
+When comparing the number of incidents to the number of arrests, rape has the
+least number of arrests per incident, and murder and nonnegligent manslaughter
+has the highest number of arrests per incident. This fact is noticeable when
+comparing proportions of violent crime and proportions of arrests of violent
+crime. Reporting rates of rape could be a factor in the low number of arrests
+being made, but robbery had the highest report rate of NCVS violent crimes.
+There are factors that affect arrests that don't seem to be in the data, such
+as, how much information police need in order to arrest someone for a crime.
+
+Here is a section of and link to a [U.S arrest definition][arrest-definition]:
+
+>An arrest is using legal authority to deprive a person of his or her freedom of
+>movement. An arrest is generally made with an arrest warrant. An arrest may be
+>made without a warrant if probable cause and exigent circumstances are
+>presented at the time of the arrest.
+
+#### Why is the percentage of rape and sexual assault victimizations reported to police lower in comparison to other violent crimes?
+
+It appears unclear to me from the data. Speculating that rape and sexual assault
+is an actual cultural norm, or, even that this percentage is an urgent problem
+that needs to be addressed, seems unfounded. Many more people claim to be victims
 of assault, as well as robbery, and more victimizations of these other violent
 crimes go unreported.
 
 The data from the NCVS and the FBI's UCR cited by RAINN doesn't seem to support
 the claims that "rape culture is real" in the U.S and that "rape is a grossly
 underreported crime". Rape and sexual assault is apparent, but is a minority of
-violent crime ([FBI Uniform Crime Reports, Table 1][fbi-crime]). Rape and sexual
-assault does have a low report rate relative to the number of victimizations of
-the crime type, but it has the lowest number of unreported victimizations of the
-violent crime in the NCVS.
+violent crime ([FBI Uniform Crime Reports, Table 1][fbi-crime]).
 
 The [NCVS][ncvs-trend-pdf] and [FBI][fbi-crime] data also shows that violent
 crime has a decreasing trend, in every type of crime, since the 1990's.
 
 It is difficult from these measurements to try to interpret the events of
-incidents of crime. Taking the data as a rough indication of the amount of
-different forms of crime seems to be its purpose, since the authors do
-not provide much analysis as to the reason why crimes have their number of
-victims and frequency. They mainly highlight annual trends in the
+incidents of crime. The [NCVS definitions][ncvs-definitions] are broad and
+include verbal threats of the crime. Taking the data as a rough indication of
+the amount of different forms of crime seems to be its purpose, since the
+authors do not provide much analysis as to the reason why crimes have their
+number of victims and frequency. They mainly highlight annual trends in the
 numbers.
 
 If you want to look for yourself NCVS data can be compiled
 [here][ncvs-trend-tool], and more FBI data can be found
 [here][fbi-ucr].
 
-## Justice System Often Doesn't Protect Sexual Abuse Victims?
+# Justice System Often Doesn't Protect Sexual Abuse Victims?
 
 Now looking at the claim that victims of sexual abuse
 "[face a justice system that often doesn't protect them](http://rhrealitycheck.org/article/2016/01/08/victims-rape-sexual-assault-failed-criminal-justice-system-increasingly-seek-civil-remedies/)".
+Protection seems to mean: those accused are prosecuted and convicted in court.
 
 My summary of this reference is that victims of rape are increasingly filing
 civil suits against their alleged rapists, rather than filing criminal suits.
@@ -517,6 +592,38 @@ several times and each time counts as a victimization. This inflates the
 victimizations relative to the number of victims of a particular crime if a
 perpetrator is not stopped and is allowed to repeat the act on the same victim.
 
+We can look at victimizations per victim for each type of violent crime to see
+how often a victim is repeatedly victimized (data from [page 2][ncvs2] and
+[page 5][ncvs5]) :
+
+{% highlight js %}
+Victimizations per Victim 2014
+
+equation
+victimizations / victims = victimizations per victim
+
+Rape and Sexual Assault
+284,350 / 150,420     =  ~1.890
+
+Robbery
+664,210 / 435,830     =  ~1.524
+
+Aggravated Assault
+1,092,090 / 681,280   =  ~1.603
+
+Simple Assault
+3,318,920 / 1,842,100 =  ~1.802
+
+{% endhighlight %}
+
+Rape and sexual assault does have a slightly above average number of victims
+repeatedly being victimized, with robbery being the least likely crime to
+repeatedly experience. This does not show how many people are affected per crime
+incident, but it does show that victimizations of rape, sexual assault, and
+simple assault affect a more concentrated group of victims, relative to robbery
+and aggravated assault. It is possible that these crimes are more easily
+repeated on victims.
+
 Be careful of what you read, hear, and believe.
 
 [ncvs-trend-tool]: http://www.bjs.gov/index.cfm?ty=nvat
@@ -528,6 +635,7 @@ Be careful of what you read, hear, and believe.
 [ncvs6]: http://www.bjs.gov/content/pub/pdf/cv14.pdf#page=6
 [ncvs7]: http://www.bjs.gov/content/pub/pdf/cv14.pdf#page=7
 [ncvs13]: http://www.bjs.gov/content/pub/pdf/cv14.pdf#page=13
+[ncvs-definitions]: http://www.bjs.gov/index.cfm?ty=tp&tid=31#terms_def
 
 [nisvs1]: http://www.cdc.gov/violenceprevention/pdf/nisvs_report2010-a.pdf#page=11
 [nisvs17]: http://www.cdc.gov/violenceprevention/pdf/nisvs_report2010-a.pdf#page=27
@@ -535,9 +643,14 @@ Be careful of what you read, hear, and believe.
 [fbi-ucr]: https://www.fbi.gov/about-us/cjis/ucr/crime-in-the-u.s/2013/crime-in-the-u.s.-2013/cius-home
 [fbi-crime]: https://www.fbi.gov/about-us/cjis/ucr/crime-in-the-u.s/2013/crime-in-the-u.s.-2013/tables/1tabledatadecoverviewpdf/table_1_crime_in_the_united_states_by_volume_and_rate_per_100000_inhabitants_1994-2013.xls
 [fbi-crime2013]: https://www.fbi.gov/about-us/cjis/ucr/crime-in-the-u.s/2013/crime-in-the-u.s.-2013/tables/2tabledatadecoverviewpdf/table_2_crime_in_the_united_states_by_community_type_2013.xls
+[fbi-clearances2013]: https://www.fbi.gov/about-us/cjis/ucr/crime-in-the-u.s/2013/crime-in-the-u.s.-2013/offenses-known-to-law-enforcement/clearances/clearancetopic_final
+[fbi-cleared2013]: https://www.fbi.gov/about-us/cjis/ucr/crime-in-the-u.s/2013/crime-in-the-u.s.-2013/tables/table-25/table_25_percent_of-offenses_cleared_by_arrest_by_population_group_2013.xls
 [fbi-arrests2013]: https://www.fbi.gov/about-us/cjis/ucr/crime-in-the-u.s/2013/crime-in-the-u.s.-2013/tables/table-29/table_29_estimated_number_of_arrests_united_states_2013.xls
 [fbi-arrests2010]: https://www.fbi.gov/about-us/cjis/ucr/crime-in-the-u.s/2010/crime-in-the-u.s.-2010/tables/10tbl29.xls
-[fbi-faq]: https://www.fbi.gov/about-us/cjis/ucr/crime-in-the-u.s/2013/crime-in-the-u.s.-2013/tables/table-29/table_29_estimated_number_of_arrests_united_states_2013.xls
+[fbi-faq]: https://www.fbi.gov/about-us/cjis/ucr/recent-program-updates/new-rape-definition-frequently-asked-questions
 [fbi-violent]: https://www.fbi.gov/about-us/cjis/ucr/crime-in-the-u.s/2013/crime-in-the-u.s.-2013/violent-crime/violent-crime-topic-page/violentcrimemain_final
 [fbi-rape]: https://www.fbi.gov/about-us/cjis/ucr/crime-in-the-u.s/2013/crime-in-the-u.s.-2013/violent-crime/rape
+[fbi-definitions2011]: https://www.fbi.gov/about-us/cjis/ucr/crime-in-the-u.s/2011/crime-in-the-u.s.-2011/offense-definitions 
+
+[arrest-definition]: https://www.law.cornell.edu/wex/arrest
 [fdluc]:

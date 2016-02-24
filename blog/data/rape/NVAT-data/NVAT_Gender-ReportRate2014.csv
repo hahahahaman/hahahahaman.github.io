@@ -1,0 +1,57 @@
+
+"Bureau of Justice Statistics"
+"Tool Title:  NCVS Victimization Analysis Tool (NVAT)"
+"Data source: BJS, National Crime Victimization Survey"
+"Refer questions to: askbjs@usdoj.gov or (202) 307-0765"
+
+"Number of rape/sexual assaults, robberies, aggravated assaults, and  simple assaults by sex and reporting to the police, 2014"
+
+
+"Crime Type",,,,,2014,, 
+,"Rape/Sexual Assault",,,, 284345, , 
+,,"Male",,, 28032, ! , 
+,,,"Yes, reported to the police",, 1489, ! , 
+,,,"No, did not report to the police",, 23367, ! , 
+,,"Female",,, 256313, , 
+,,,"Yes, reported to the police",, 93931, , 
+,,,"No, did not report to the police",, 159023, , 
+,"Robbery",,,, 664211, , 
+,,"Male",,, 395544, , 
+,,,"Yes, reported to the police",, 226858, , 
+,,,"No, did not report to the police",, 168686, , 
+,,"Female",,, 268668, , 
+,,,"Yes, reported to the police",, 177964, , 
+,,,"No, did not report to the police",, 90704, , 
+,"Aggravated Assault",,,, 1092091, , 
+,,"Male",,, 660072, , 
+,,,"Yes, reported to the police",, 377360, , 
+,,,"No, did not report to the police",, 279314, , 
+,,"Female",,, 432019, , 
+,,,"Yes, reported to the police",, 260157, , 
+,,,"No, did not report to the police",, 164232, , 
+,,,"Do Not Know",, 2857, ! , 
+,"Simple Assault",,,, 3318923, , 
+,,"Male",,, 1657905, , 
+,,,"Yes, reported to the police",, 566381, , 
+,,,"No, did not report to the police",, 1068936, , 
+,,,"Do Not Know",, 12828, ! , 
+,,"Female",,, 1661018, , 
+,,,"Yes, reported to the police",, 761839, , 
+,,,"No, did not report to the police",, 856151, , 
+,,,"Do Not Know",, 37601, ! , 
+
+
+
+
+Footnotes:
+*  Special tabulations from the NCVS Victimization Analysis Tool (NVAT).
+"*  Detail may not sum to total due to rounding and/or missing data."
+
+==
+
+"!  Interpret data with caution, based on 10 or fewer sample cases or the coefficient of variation is greater than 50%."
+
+"Report Generated:  February 23, 2016 11:25 AM" 
+
+
+"Suggested Citation: Bureau of Justice Statistics. (Insert table title). Generated using the NCVS Victimization Analysis Tool at www.bjs.gov. 23-Feb-16 
