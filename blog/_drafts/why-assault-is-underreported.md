@@ -411,9 +411,13 @@ of rape and sexual assault reported to police, not rapists or number of rapes
 reported to police. Their claims citing the NCVS are misleading. How do they
 "factor in unreported rapes"?
 
-It is not apparent where RAINN obtained their second and third statistics from
-the FBI UCRs. The claims say, "out of 100 rapes, 7 lead to arrest and 3 are
-referred to prosecutors."
+##### It is not apparent where RAINN obtained their second and third statistics from the FBI UCR.
+
+> But even when the crime is reported, it is unlike to lead to an arrest and
+> prosecution.
+
+ The second statistic's claim says, "out of 100 rapes, 7 lead to
+arrest," and cites the FBI, Uniform Crime Reports, Arrest Data: 2006-2010.
 [Estimated Number of Arrests, 2013, Table 29][fbi-arrests2013] shows that there
 were 16,863 arrests whose most serious offense was rape and
 [Table 2][fbi-crime2013] estimates 108,612 rapes. That is ~0.155 arrests per
@@ -424,7 +428,10 @@ offense was forcible rape and from [UCR Table 1][fbi-crime], 2010 had 85,593
 estimated incidents of rape. That is ~0.235 arrests per incident, or ~23.5
 arrests per 100 incidents. The 2013 arrests data also has 57,925 arrests for
 "Sex offenses (except rape and prostitution)," which probably includes statutory
-rape and other forms of sexual assault. 
+rape and other forms of sexual assault.
+
+The third statistic's claim is, "out of 100 rapes, 3 are referred to
+prosecutors," citing FBI, Uniform Crime Reports, Offenses Cleared Data: 2006-2010.
 
 Here are portions of definitions from the
 [FBI UCR offenses cleared data][fbi-clearances2013] :
@@ -469,7 +476,7 @@ Here are portions of definitions from the
 >identified; or the denial of extradition because the offender committed a crime
 >in another jurisdiction and is being prosecuted for that offense.
 
-Here is some expanded data from Table 25:
+Here is some expanded data from [Table 25][fbi-cleared2013]:
 
 | Offenses Cleared by Arrest or Exceptional Means, 2013 | Offenses known  | Percent cleared | Offenses cleared |
 | ---  | --- | --- | --- |
@@ -491,11 +498,11 @@ and see [Table 25][fbi-cleared2013] for the data.
 
 #### Here are graphs of violent crime data in 2013:
 
-![arrests-incidents-2013](./data/rape/arrests-incidents-2013.png)
-![known-incidents-2013](./data/rape/known-incidents-2013.png)
-
 (Incidents of crime from [Table 2][fbi-crime2013], arrests from
 [Table 29][fbi-arrests2013], offense known from [Table 25][fbi-cleared2013].)
+
+![arrests-incidents-2013](./data/rape/arrests-incidents-2013.png)
+![known-incidents-2013](./data/rape/known-incidents-2013.png)
 
 ![FBI-violent-crime-2013](./data/rape/violent-crime-2013.png)
 ![arrests-2013](./data/rape/arrests-2013.png)
@@ -523,16 +530,7 @@ to a [U.S arrest definition][arrest-definition]:
 >made without a warrant if probable cause and exigent circumstances are
 >presented at the time of the arrest.
 
-## Why is the percentage of rape and sexual assault victimizations reported to police lower in comparison to other violent crimes?
-
-It appears unclear to me from the data. Rape and sexual assault is reported at a
-lower rate than other violent crimes, but not for the reasons these articles
-would like to suggest. Speculating that rape and sexual assault is an actual
-cultural norm, or, even that this percentage is an urgent problem that needs to
-be addressed, seems unfounded. Many more people claim to be victims of assault,
-as well as robbery. More victimizations of these other violent crimes go
-unreported, according to the NCVS, and many more incidents of these other crimes
-are left without someone arrested, according to the FBI UCR. 
+## Trends :
 
 The [NCVS][ncvs-trend-pdf] and [FBI UCR][fbi-crime] data also shows that violent
 crime has a decreasing trend, in every type of crime, since the 1990's.
@@ -543,7 +541,7 @@ It is difficult from these measurements to try to interpret the events of
 incidents of crime. Taking the data as a rough indication of the amount of
 different forms of crime seems to be its purpose, since the authors barely
 provide any analysis as to the reason why crimes have their number of victims
-and frequency. They mainly highlight annual trends in the numbers.
+and frequency; they mainly highlight annual trends in the numbers.
 
 If you want to look for yourself NCVS data can be compiled
 [here][ncvs-trend-tool], and more FBI data can be found
@@ -612,25 +610,36 @@ deal with state level criminal trials. [FDLUC page 34][fdluc34] gives
 definitions of their crime data. [FSSC page 33][fssc33] gives definitions of
 that data's crimes. FDLUC is not nationally representative, as the name
 suggests, it only has data from ["the nation’s 75 largest counties"][fdluc33]
-(the nation being the U.S). FSSC makes national estimates.
+(the nation being the U.S). FSSC makes national estimates of sentencing, they do
+not provide number of defendants and do not provide conviction rates.
 
 If rape and sexual assault cases face so many difficulties in courts, as the
 "Victims of Sexual Assault, Failed by Justice System, ..." article claims, then
 it should be reflected in the felony conviction data.
 
+What would you expect?
+
 ### Felony Conviction Data :
 
 [FDLUC page 24, Table 21][fdluc24] :
-
 ![percent-convicted-2009](./data/rape/percent-convicted-2009.png)
-
 ![percent-convicted-type-2009](./data/rape/percent-convicted-type-2009.png)
-
 ![convicted-2009](./data/rape/convicted-felons-2009.png)
 
-[FSSC page 3, Table 1.1][fssc3] :
+[FDLUC page 29, Table 24][fdluc29] :
+![incarcerated](./data/rape/fdluc-percent-incarcerated-2009.png)
 
+[FDLUC page 30, Table 25][fdluc30] :
+![prison](./data/rape/fdluc-prison-2009.png)
+
+[FSSC page 3, Table 1.1][fssc3] :
 ![fssc-convicted-2006](./data/rape/fssc-convicted-felons-2006.png)
+
+[FSSC page 4, Table 1.2][fssc4] :
+![fssc-incarcerated-2006](./data/rape/fssc-percent-incarcerated-2006.png)
+
+[FSSC page 6, Table 1.3][fssc6] :
+![fssc-prison](./data/rape/fssc-prison-2006.png)
 
 ### Failed Justice System?
 
@@ -659,6 +668,20 @@ conviction rates to?
 > in prison."
 
 ???
+
+## Why is the percentage of rape and sexual assault victimizations reported to police lower in comparison to other violent crimes?
+
+It appears unclear to me from the data. Rape and sexual assault is reported at a
+lower rate than other violent crimes, but not for the reasons these articles
+would like to suggest. Speculating that rape and sexual assault is an actual
+cultural norm, or, the legal system is broken, or, this problem is being
+ignored, seems unfounded. Many more people claim to be victims of assault, as
+well as robbery. More victimizations of these other violent crimes go
+unreported, according to the NCVS, and many more incidents of these other crimes
+are left without someone arrested, according to the FBI UCR. Rape has the second
+highest conviction rate of violent crime, the second highest mean prison
+sentence. People appear to be trying to increase the conviction rate and to
+increase the number of arrests.
 
 ## Other concerns with the Huffington Post article.
 
@@ -704,64 +727,72 @@ Is it because? :
 > "she has been in a protracted legal battle with the producer, trying to
 > extricate herself from her contract with him."
 
-> "Despite the pop star's sexual abuse allegations, the judge says it's not
+> Despite the pop star's sexual abuse allegations, the judge says it's not
 > reasonable to "decimate a contract that was heavily negotiated." (quote from
 > [here](http://www.hollywoodreporter.com/thr-esq/judge-wont-let-kesha-escape-867571).)
 
 Illuminating, I'm sure rape and sexual assault victims are having a hard time
 with their contracts with their producers.
 
+Really the rest of the article seems to have anecdotal information about rape
+and sexual assault. The references from the article lead to more anecdotes that
+lead to more references with statistics.
+
+Here is a small example of what I mean:
+
+Starting from the Huffington Post article :
+
+>The truth is that there are few incentives to coming forward with an allegation
+>of sexual assault. It means having to recount a trauma over and over again, to
+>people who may not even believe that what you say happened actually happened.
+>It means facing the judgments of those closest to you, and in Kesha's case, the
+>judgments of the public who determine the success of her career. It means being
+>picked apart, as people try to find just how "perfect" a victim you are. It may
+>mean dealing with law enforcement officials and members of a jury who have been
+>[socialized to believe myths about rape](http://www.cosmopolitan.com/college/news/a30507/sexual-assault-misconceptions/?utm_source=huffingtonpost.com&utm_medium=referral&utm_campaign=pubexchange_article).
+
+>"You've already been violated," Madonna told Howard Stern last year when he
+>asked why she never reported a violent assault to the police in the late 1970s.
+>"It's just not worth it. It's too much humiliation."
+
+Goes to the Cosmopolitan:
+
+> **Despite the high-profile cases in the news lately, these major misconceptions persist.**
+
+> Drinking puts you at risk of rape. Wearing revealing clothing makes you a
+> target for harassment. Men always want sex and will do whatever they have to
+> in order to get it. You can avoid rape if you don't walk alone at night and
+> don't accept drinks from strangers.
+
+>research shows that
+>[90 percent of campus rapists](http://www.npr.org/templates/story/story.php?storyId=124272157)
+>are repeat offenders,
+>[averaging nearly six victims apiece](http://www.davidlisak.com/wp-content/uploads/pdf/RepeatRapeinUndetectedRapists.pdf),
+>and they often go undetected.
+
+Then (I will end at) two different links, the first is a summary of a paper, and
+the second is the paper.
+
+Now looking at this trail, what are these different works trying to prove? How
+did they prove their claims?
+
+The Cosmopolitan article makes this statement :
+
+> The tropes and supposed truisms about sexual assault are decades old, but that
+> doesn't make them accurate.
+
+Which could easily be turned into :
+
+> The tropes and supposed truisms about societal understanding of sexual assault
+> are decades old, but that doesn't make them accurate.
+
+# Finally :
+
 [Zerlina Maxwell][rape-culture] once said, "The truth is ugly. But by denying
 the obvious we continue to allow rapists to go unpunished and leave survivors
 silenced."
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gDadfh0ZdBM" frameborder="0" allowfullscreen></iframe>
-
-
-Victimizations are a rather general measure of criminal activity, since in
-counting number of victimizations many things could have occurred during the
-incidents of the crime. Victimizations count in multiple types of crimes for 1
-victim, such as a victim of robbery could have been assaulted and raped, then
-would be counted in all 3 types of victimization for that 1 incident and this
-person would be counted as a victim of all 3. It also counts multiple instances
-with 1 person, so, in cases like domestic violence, someone could be victimized
-several times and each time counts as a victimization. This inflates the
-victimizations relative to the number of victims of a particular crime if a
-perpetrator is not stopped and is allowed to repeat the act on the same victim.
-
-We can look at victimizations per victim for each type of violent crime to see
-how often a victim is repeatedly victimized (data from [page 2][ncvs2] and
-[page 5][ncvs5]) :
-
-{% highlight js %}
-Victimizations per Victim 2014
-
-equation
-victimizations / victims = victimizations per victim
-
-Rape and Sexual Assault
-284,350 / 150,420     =  ~1.890
-
-Robbery
-664,210 / 435,830     =  ~1.524
-
-Aggravated Assault
-1,092,090 / 681,280   =  ~1.603
-
-Simple Assault
-3,318,920 / 1,842,100 =  ~1.802
-
-{% endhighlight %}
-
-Rape and sexual assault does have a slightly above average number of victims
-repeatedly being victimized, with robbery being the least likely crime to
-repeatedly experience. This does not show how many people are affected per crime
-incident, but it does show that victimizations of rape, sexual assault, and
-simple assault affect a more concentrated group of victims, relative to robbery
-and aggravated assault. It is possible that these crimes are more easily
-repeated on victims.
-
-Be careful of what you read, hear, and believe.
 
 [ncvs-trend-tool]: http://www.bjs.gov/index.cfm?ty=nvat
 [ncvs-trend-pdf]: data/NCVS_trend1993-2014.pdf#zoom=250
@@ -794,11 +825,15 @@ Be careful of what you read, hear, and believe.
 [fdluc1]: http://www.bjs.gov/content/pub/pdf/fdluc09.pdf
 [fdluc7]: http://www.bjs.gov/content/pub/pdf/fdluc09.pdf#page=7
 [fdluc24]: http://www.bjs.gov/content/pub/pdf/fdluc09.pdf#page=24
+[fdluc29]: http://www.bjs.gov/content/pub/pdf/fdluc09.pdf#page=29
+[fdluc30]: http://www.bjs.gov/content/pub/pdf/fdluc09.pdf#page=30
 [fdluc33]: http://www.bjs.gov/content/pub/pdf/fdluc09.pdf#page=33
 [fdluc34]: http://www.bjs.gov/content/pub/pdf/fdluc09.pdf#page=34
 
 [fssc1]: http://www.bjs.gov/content/pub/pdf/fssc06st.pdf
 [fssc3]: http://www.bjs.gov/content/pub/pdf/fssc06st.pdf#page=3
+[fssc4]: http://www.bjs.gov/content/pub/pdf/fssc06st.pdf#page=4
+[fssc6]: http://www.bjs.gov/content/pub/pdf/fssc06st.pdf#page=6
 [fssc33]: http://www.bjs.gov/content/pub/pdf/fssc06st.pdf#page=33
 
 [rape-culture]: http://time.com/40110/rape-culture-is-real/
