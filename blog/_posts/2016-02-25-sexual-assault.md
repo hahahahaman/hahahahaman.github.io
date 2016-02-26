@@ -381,7 +381,7 @@ estimated victims.
 
 Let the public crises commence.
 
-##The RAINN "Report Rates" page is shocking in how much misinformation it presents.
+## The RAINN "Report Rates" page is shocking in how much misinformation it presents.
 
 It misrepresents the data from the NCVS saying that:
 
