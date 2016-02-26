@@ -750,7 +750,12 @@ world. Though these arguments are being built using the branches of the rooted
 authority, a fire commenced before their construction, and these blazing flames
 signal the upheaval of the world we once knew, to cut down the past, to fuel the
 progress. As this engine grows the light of the sun recedes, and we return back
-to the darkness of a forgotten age.
+to the darkness of a forgotten age. (By the way, I think the arguments made
+criticizing the NCVS method of obtaining rape/sexual assault estimates faces the
+same problems as any other form of domestic violence and does not justify a
+separate study solely for rape/sexual assault. Instead of rape change the crime
+to child abuse and argue : would a child willing tell someone over the phone
+that their parents beat them if their parents were right next to them?)
 
 Really the rest of the article seems to have anecdotal information about rape
 and sexual assault, then the references from the article lead to more anecdotes
