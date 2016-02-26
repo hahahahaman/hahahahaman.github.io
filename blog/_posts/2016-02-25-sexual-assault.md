@@ -29,7 +29,7 @@ from the Rape, Abuse and Incest National Network (RAINN), which make several
 claims, including, "only about 2% of rapists will ever serve a day in prison."
 
 >"**Why Will Only 2 Out of Every 100 Rapists Serve Time?**"
-> ![Rapist infographic](./data/rape/jailed-rapists2014.jpg)
+> ![Rapist infographic](/blog/data/rape/jailed-rapists2014.jpg)
 
 As you can see, each of these data bars has a reference :
 
@@ -86,7 +86,7 @@ Looking at [page 7, table 6][ncvs7] of the survey :
 
 * Total Violent Crime Average : 46.0%
 
-![nvat-percent-reported-2014](./data/rape/NVAT-data/percent-reported-2014.png)
+![nvat-percent-reported-2014](/blog/data/rape/NVAT-data/percent-reported-2014.png)
 
 Previous years appear to be around this percentage for rape and sexual assault.
 
@@ -116,7 +116,7 @@ the survey as shown on [page 2, table 1][ncvs2] for violent crime and
 * Total Serious Violent Crime : 2,040,650
 
 
-![victimizations-2014](./data/rape/NVAT-data/victimizations-2014.png)
+![victimizations-2014](/blog/data/rape/NVAT-data/victimizations-2014.png)
 
 These estimates also show that rape and sexual assault accounts for ~13.9% of
 serious violent crime victimizations.
@@ -175,13 +175,13 @@ These calculations show that rape and sexual assault has the lowest number of
 victimizations reported to police and the lowest number of unreported
 victimizations.
 
-![reported-unreported-2014](./data/rape/NVAT-data/reported-unreported-2014.png)
+![reported-unreported-2014](/blog/data/rape/NVAT-data/reported-unreported-2014.png)
 
 ### Is it fair to compare the number of unreported victimizations, rather than compare the percentage of unreported victimizations? 
 
 The claim that rape and sexual assault is **grossly** underreported didn't even
 compare its report rate to other crimes; there was no context to what was an
-underreported, over reported, and averagely reported crime. Looking at the
+underreported, over-reported, and averagely reported crime. Looking at the
 number of reported and unreported victimizations gives context to the societal
 trends of reporting crime to the police and gives information on how prevalent
 each crime is in society. Including the numbers gives a broader picture of the
@@ -270,15 +270,15 @@ This means that men must be more likely to be victims of some other form of
 violent crime if women are mainly the victims of rape and sexual assault.
 
 Here is a graph using NVAT data :
-![nvat-gender-2014-graph](./data/rape/NVAT-data/victimization-gender-2014.png)
+![nvat-gender-2014-graph](/blog/data/rape/NVAT-data/victimization-gender-2014.png)
 
 ##### Side Note: There also might be concern that women are not reporting crimes enough? :
 
 Data is from [NVAT custom tables][ncvs-trend-tool].
 
-![reported-unreported-gender-2014](./data/rape/NVAT-data/reported-unreported-gender-2014.png)
+![reported-unreported-gender-2014](/blog/data/rape/NVAT-data/reported-unreported-gender-2014.png)
 
-![percent-reported-unreported-gender-2014](./data/rape/NVAT-data/percent-reported-unreported-gender-2014.png)
+![percent-reported-unreported-gender-2014](/blog/data/rape/NVAT-data/percent-reported-unreported-gender-2014.png)
 
 In all forms of violent crime in the NCVS victimizations of females are reported
 to police at a higher percentage than for victimizations of males of the same type
@@ -345,7 +345,7 @@ and nonnegligent manslaughter. Looking at violent crimes from Table 2:
 <!-- * Robbery : ~28.9% -->
 <!-- * Aggravated Assault : 	~60.8% -->
 
-![FBI-violent-crime-2013](./data/rape/violent-crime-2013.png)
+![FBI-violent-crime-2013](/blog/data/rape/violent-crime-2013.png)
 
 ### To conclude why victimizations are low: 
 
@@ -353,7 +353,7 @@ It would seem reasonable to say that, in this case, because rape and sexual
 assault has less victims there are less victimizations than other forms of
 violent crime from the NCVS.
 
-![victims-vs-victimizations](./data/rape/NVAT-data/victims-vs-victimizations-2014.png)
+![victims-vs-victimizations](/blog/data/rape/NVAT-data/victims-vs-victimizations-2014.png)
 
 Data from [page 2][ncvs2] and [page 5][ncvs5].
 
@@ -487,7 +487,7 @@ Here is some expanded data from [Table 25][fbi-cleared2013]:
 				
 <!-- |  Rape (legacy definition) | 34,271 | 40.0 | 13708 |  -->
 
-![clearance-figure](./data/rape/fbi-clearance2013.gif)
+![clearance-figure](/blog/data/rape/fbi-clearance2013.gif)
 
 The UCR offenses cleared data does not show the circumstances under which an
 offense has been cleared; it is unclear how many people are referred to
@@ -501,11 +501,11 @@ and see [Table 25][fbi-cleared2013] for the data.
 (Incidents of crime from [Table 2][fbi-crime2013], arrests from
 [Table 29][fbi-arrests2013], offense known from [Table 25][fbi-cleared2013].)
 
-![arrests-incidents-2013](./data/rape/arrests-incidents-2013.png)
-![known-incidents-2013](./data/rape/known-incidents-2013.png)
+![arrests-incidents-2013](/blog/data/rape/arrests-incidents-2013.png)
+![known-incidents-2013](/blog/data/rape/known-incidents-2013.png)
 
-![FBI-violent-crime-2013](./data/rape/violent-crime-2013.png)
-![arrests-2013](./data/rape/arrests-2013.png)
+![FBI-violent-crime-2013](/blog/data/rape/violent-crime-2013.png)
+![arrests-2013](/blog/data/rape/arrests-2013.png)
 
 When comparing the number of incidents to the number of arrests, rape has the
 least number of arrests per incident, and murder and nonnegligent manslaughter
@@ -622,24 +622,24 @@ What would you expect?
 ### Felony Conviction Data :
 
 [FDLUC page 24, Table 21][fdluc24] :
-![percent-convicted-2009](./data/rape/percent-convicted-2009.png)
-![percent-convicted-type-2009](./data/rape/percent-convicted-type-2009.png)
-![convicted-2009](./data/rape/convicted-felons-2009.png)
+![percent-convicted-2009](/blog/data/rape/percent-convicted-2009.png)
+![percent-convicted-type-2009](/blog/data/rape/percent-convicted-type-2009.png)
+![convicted-2009](/blog/data/rape/convicted-felons-2009.png)
 
 [FDLUC page 29, Table 24][fdluc29] :
-![incarcerated](./data/rape/fdluc-percent-incarcerated-2009.png)
+![incarcerated](/blog/data/rape/fdluc-percent-incarcerated-2009.png)
 
 [FDLUC page 30, Table 25][fdluc30] :
-![prison](./data/rape/fdluc-prison-2009.png)
+![prison](/blog/data/rape/fdluc-prison-2009.png)
 
 [FSSC page 3, Table 1.1][fssc3] :
-![fssc-convicted-2006](./data/rape/fssc-convicted-felons-2006.png)
+![fssc-convicted-2006](/blog/data/rape/fssc-convicted-felons-2006.png)
 
 [FSSC page 4, Table 1.2][fssc4] :
-![fssc-incarcerated-2006](./data/rape/fssc-percent-incarcerated-2006.png)
+![fssc-incarcerated-2006](/blog/data/rape/fssc-percent-incarcerated-2006.png)
 
 [FSSC page 6, Table 1.3][fssc6] :
-![fssc-prison](./data/rape/fssc-prison-2006.png)
+![fssc-prison](/blog/data/rape/fssc-prison-2006.png)
 
 ### Failed Justice System?
 
@@ -648,14 +648,17 @@ burglarized or say that their car was stolen or who say that they were
 assaulted," but it appears to be the job of criminal courts to second-guess
 charges, because it is the job of the "prosecution to prove the defendant’s
 guilt “beyond a reasonable doubt.”" People charged with a crime are not just
-whimsically found innocent or guilty.
+whimsically found innocent or guilty. Criminal trials are meant not to be
+biased.
+[Presumption of innocence](https://en.wikipedia.org/wiki/Presumption_of_innocence)
+is axiomatic to criminal law.
 
 Is the percentage of rape offenses cleared too low? What about the conviction
 rate of defendants? There seem to be forces actively trying to improve these
 aspects of the system, but from what I can see the system doesn't seem like
 felons are being easily set free. The system can be improved, people are trying,
-but sexual abuse cases currently seem to be handled at a similar level to other
-crime cases.
+but known sexual abuse cases currently seem to be handled at a similar level to
+other crime cases.
 
 ## RAINN's "Report Rates" page is an analysis?
 
@@ -680,8 +683,10 @@ well as robbery. More victimizations of these other violent crimes go
 unreported, according to the NCVS, and many more incidents of these other crimes
 are left without someone arrested, according to the FBI UCR. Rape has the second
 highest conviction rate of violent crime, the second highest mean prison
-sentence. People appear to be trying to increase the conviction rate and to
-increase the number of arrests.
+sentence. People appear to be trying to increase the conviction rate by
+[dispelling jury bias](http://www.aequitasresource.org/EducatingJuriesInSexualAssaultCasesPart1.pdf)
+and
+[improving the police force and prosecutors](https://www.whitehouse.gov/sites/default/files/docs/sexual_assault_report_1-21-14.pdf).
 
 ## Other concerns with the Huffington Post article.
 
@@ -729,16 +734,29 @@ Is it because? :
 
 > Despite the pop star's sexual abuse allegations, the judge says it's not
 > reasonable to "decimate a contract that was heavily negotiated." (quote from
-> [here](http://www.hollywoodreporter.com/thr-esq/judge-wont-let-kesha-escape-867571).)
+> [here].)
 
 Illuminating, I'm sure rape and sexual assault victims are having a hard time
 with their contracts with their producers.
 
-Really the rest of the article seems to have anecdotal information about rape
-and sexual assault. The references from the article lead to more anecdotes that
-lead to more references with statistics.
+The original Huffington Post article links to
+[another Huffington Post article](http://www.huffingtonpost.com/2015/03/12/madonna-says-her-rape-wasnt-worth-reporting-humiliation_n_6856196.html),
+that links to
+[another Huffington Post article that gives criticisms of the NCVS](http://www.hollywoodreporter.com/thr-esq/judge-wont-let-kesha-escape-867571).
+This web of links gives criticisms of the data used to make its arguments. In a
+way it does not invalidate the arguments, it actually reinforces the underlying
+societal criticisms, like a dark cloud forming from the the ashes of a burning
+world. Though these arguments are being built using the branches of the rooted
+authority, a fire commenced before their construction, and these blazing flames
+signal the upheaval of the world we once knew, to cut down the past, to fuel the
+progress. As this engine grows the light of the sun recedes, and we return back
+to the darkness of a forgotten age.
 
-Here is a small example of what I mean:
+Really the rest of the article seems to have anecdotal information about rape
+and sexual assault, then the references from the article lead to more anecdotes
+that lead to more references with statistics. 
+
+Here is a small, somewhat detailed example of what I mean:
 
 Starting from the Huffington Post article :
 
@@ -773,8 +791,9 @@ Goes to the Cosmopolitan:
 Then (I will end at) two different links, the first is a summary of a paper, and
 the second is the paper.
 
-Now looking at this trail, what are these different works trying to prove? How
-did they prove their claims?
+Now looking at this trail, are these different works trying to prove something?
+Are they claiming something? If so, how did they go about convincing you, the
+reader?
 
 The Cosmopolitan article makes this statement :
 
@@ -783,7 +802,7 @@ The Cosmopolitan article makes this statement :
 
 Which could easily be turned into :
 
-> The tropes and supposed truisms about societal understanding of sexual assault
+> The tropes and supposed truisms about *the misunderstanding of* sexual assault
 > are decades old, but that doesn't make them accurate.
 
 # Finally :
