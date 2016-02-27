@@ -734,7 +734,7 @@ Is it because? :
 
 > Despite the pop star's sexual abuse allegations, the judge says it's not
 > reasonable to "decimate a contract that was heavily negotiated." (quote from
-> [here].)
+> [here](http://www.hollywoodreporter.com/thr-esq/judge-wont-let-kesha-escape-867571).)
 
 Illuminating, I'm sure rape and sexual assault victims are having a hard time
 with their contracts with their producers.
