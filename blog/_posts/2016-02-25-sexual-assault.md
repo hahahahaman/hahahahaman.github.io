@@ -739,6 +739,8 @@ Is it because? :
 Illuminating, I'm sure rape and sexual assault victims are having a hard time
 with their contracts with their producers.
 
+#### The web of citations.
+
 The original Huffington Post article links to
 [another Huffington Post article](http://www.huffingtonpost.com/2015/03/12/madonna-says-her-rape-wasnt-worth-reporting-humiliation_n_6856196.html),
 that links to
