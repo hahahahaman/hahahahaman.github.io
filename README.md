@@ -1,4 +1,6 @@
-### Blog site
+### Site
+
+Home page will use Three.js for graphics.
 
 Blog uses [Jekyll](https://help.github.com/articles/using-jekyll-with-pages/)
 with the github-pages Ruby gem. CSS based on

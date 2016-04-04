@@ -13,7 +13,6 @@ includes_dir:        ./blog/_includes
 drafts_dir:          ./blog/_drafts
 posts_dir:           ./blog/_posts
 
-
 # Setup
 title:               'really big'
 tagline:             'reallyreallybig'
@@ -26,8 +25,7 @@ paginate_path:       "/blog/page:num/"
 # About/contact
 author:
   name:              Ed Ye
-  url:               https://twitter.com/pseudobasement
-  email:             hahahadude@gmail.com
+  email:             ye.edward.zhijia@gmail.com
 
 # Custom vars
 version:             erybig
