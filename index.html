@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title> Main </title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-    <style>
-      body {
-      background-color: #000000;
-      margin: 0px;
-      overflow: hidden;
-      }
-    </style>
-  </head>
+    <head>
+        <title> Main </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <style>
+         body {
+             background: #000000;
+             margin: 0;
+             padding: 0;
+             height: 100%;
+             overflow:hidden;
+         }
+         iframe {
+             box-sizing: border-box;   /* make the border size be included in the height */
+             display: block;           /* make them block to fix white space margin */
+             width: 50vw;
+             height: 100vh;
+             max-width: 100%;
+             margin: 0;
+             padding: 0;
+             border: 0 none;
+         }
+        </style>
+        <!-- <script src="https://hypothes.is/embed.js" async></script> -->
+    </head>
 
-  <body>
-    <script src="/public/js/three.min.js"></script>
-    <script src="/public/js/webgl/random_walk.js"></script>
-  </body>
+    <body>
+        <iframe src="./blog/index.html"></iframe>
+
+        <iframe src="https://github.com/hahahahaman"></iframe>
+        <!-- <iframe src="" width="50%"></iframe> -->
+    </body>
 </html>

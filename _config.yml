@@ -30,4 +30,4 @@ author:
 # Custom vars
 version:             erybig
 
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]

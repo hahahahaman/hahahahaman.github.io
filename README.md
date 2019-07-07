@@ -20,3 +20,10 @@ bundle install
 ```
 
 See [JekyllRB](https://jekyllrb.com/docs/) for documentation.
+
+### Run
+
+```
+bundle exec jekyll serve
+bundle exec jekyll build
+```
