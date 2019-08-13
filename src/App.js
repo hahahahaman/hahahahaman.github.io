@@ -1,12 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
+/* import logo from './logo.svg'; */
+import { AboutPage } from  './components/AboutPage.js'
 import './App.css';
 import '../node_modules/react-grid-layout/css/styles.css';
 import '../node_modules/react-resizable/css/styles.css';
 import { WidthProvider, Responsive } from 'react-grid-layout';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const ResponsiveReactGridLayout = WidthProvider(Responsive);
 const originalLayouts = getFromLS("layouts") || {};
+
+class ResponsiveIframe extends React.Component {
+  render(){
+    return (
+      <div class="iframe-container">
+        <iframe title={this.props.title}
+                src={this.props.src} allowfullscreen>
+        </iframe>
+      </div>
+    );
+  }
+}
 
 class ResponsiveLocalStorageLayout extends React.PureComponent {
     constructor(props){
@@ -47,11 +61,14 @@ class ResponsiveLocalStorageLayout extends React.PureComponent {
                     }
                 >
                     <div key="1" data-grid={{ w: 2, h: 3, x: 0, y: 0, minW: 2, minH: 3}}>
-                        <span className="text">1</span>
-                        <button>huh</button>
+                      <ResponsiveIframe title="about" src="/about">
+                        <p>Your browser does not support iframes.</p>
+                      </ResponsiveIframe>
                     </div>
                     <div key="2" data-grid={{ w: 2, h: 3, x: 2, y: 0, minW: 2, minH: 3}}>
-                        <span className="text">2</span>
+                      <ResponsiveIframe title="test" src="/test">
+                        <p>Your browser does not support iframes.</p>
+                      </ResponsiveIframe>
                     </div>
                 </ResponsiveReactGridLayout>
             </div>
@@ -84,11 +101,25 @@ function saveToLS(key, value){
     }
 }
 
+function Test (){
+  return (
+    <div>
+      <h2> Test </h2>
+      <p> I don't know how the fuck this shit. </p>
+      <p> I don't know. Is it wrong for me to say I don't know. </p>
+    </div>
+  );
+}
+
 function App() {
   return (
+    <Router>
       <div className="App">
-          <ResponsiveLocalStorageLayout />
+        <Route exact path="/" component={ResponsiveLocalStorageLayout} />
+        <Route path="/about" component={AboutPage} />
+        <Route path="/test" component={Test} />
       </div>
+    </Router>
   );
 }
 
