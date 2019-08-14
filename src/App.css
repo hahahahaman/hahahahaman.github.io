@@ -1,3 +1,7 @@
+body{
+  background-color: #000000;
+}
+
 .App {
   text-align: center;
 }
@@ -41,9 +45,16 @@
 
 .iframe-container iframe {
   border: 0;
-  height: 80%;
+  height: 90%;
   left: 0;
   position: absolute;
   top: 0;
-  width: 80%;
+  width: 90%;
+}
+
+.react-grid-item{
+  background-color: #4f5f76;
+}
+.react-grid-layout{
+  background-color: #091f36;
 }

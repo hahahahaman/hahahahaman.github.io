@@ -13,9 +13,9 @@ const originalLayouts = getFromLS("layouts") || {};
 class ResponsiveIframe extends React.Component {
   render(){
     return (
-      <div class="iframe-container">
+      <div className="iframe-container">
         <iframe title={this.props.title}
-                src={this.props.src} allowfullscreen>
+                src={this.props.src} allowFullScreen>
         </iframe>
       </div>
     );
