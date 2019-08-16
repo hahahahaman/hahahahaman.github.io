@@ -1,26 +1,16 @@
 import React from 'react';
 /* import logo from './logo.svg'; */
-import { AboutPage } from  './components/AboutPage.js'
-import './App.css';
-import '../node_modules/react-grid-layout/css/styles.css';
-import '../node_modules/react-resizable/css/styles.css';
+import { AboutPage } from  './components/AboutPage/AboutPage.jsx'
+import { ResponsiveIframe } from './components/ResponsiveIframe/ResponsiveIframe.jsx'
 import { WidthProvider, Responsive } from 'react-grid-layout';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
+import './App.css';
+import '../node_modules/react-grid-layout/css/styles.css';
+import '../node_modules/react-resizable/css/styles.css';
+
 const ResponsiveReactGridLayout = WidthProvider(Responsive);
 const originalLayouts = getFromLS("layouts") || {};
-
-class ResponsiveIframe extends React.Component {
-  render(){
-    return (
-      <div className="iframe-container">
-        <iframe title={this.props.title}
-                src={this.props.src} allowFullScreen>
-        </iframe>
-      </div>
-    );
-  }
-}
 
 class ResponsiveLocalStorageLayout extends React.PureComponent {
     constructor(props){
@@ -50,7 +40,7 @@ class ResponsiveLocalStorageLayout extends React.PureComponent {
     render(){
         return (
             <div>
-                <button onClick= {() => this.resetLayout()}> Reset </button>
+              {/* <button onClick= {() => this.resetLayout()}> Reset </button> */}
                 <ResponsiveReactGridLayout
                     className="layout"
                     cols={{ lg: 12, md: 10, sm: 6, xs: 4, xxs: 2}}
