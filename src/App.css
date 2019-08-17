@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -33,9 +33,14 @@
 }
 
 .react-grid-item{
-  background-color: #4f5f76;
+  background-color: #CCCCCC;
+  border: 1px solid black;
+  border-radius: 5px;
 }
+
 .react-grid-layout{
-  background-color: #091f36;
-  width: 100vw;
+  background-color: #DDDDDD;
+  width: 100%;
+  border: 2px solid;
+  border-radius: 6px;
 }

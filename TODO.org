@@ -1,0 +1,17 @@
+* Detect event over iframe
+https://stackoverflow.com/questions/5645485/detect-mousemove-when-over-an-iframe#15318321
+
+UI feel super sticky and doesn't seem to work.
+* color scheme
+* theme?
+
+what should the idea behind the look be?
+
+what should I focus on conveying?
+** Layout of design
+where should i place name
+
+where should other objects go?
+
+what pages should there be?
+
