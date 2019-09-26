@@ -1,46 +1,73 @@
 import React from 'react';
 /* import logo from './logo.svg'; */
-import { AboutPage } from  './components/AboutPage/AboutPage.jsx'
-import { ResponsiveIframe } from './components/ResponsiveIframe/ResponsiveIframe.jsx'
-import { WidthProvider, Responsive } from 'react-grid-layout';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import {
+    AboutPage
+} from './components/AboutPage/AboutPage.jsx'
+import {
+    ResponsiveIframe
+} from './components/ResponsiveIframe/ResponsiveIframe.jsx'
+
+import WidthProvider from './components/react-grid-layout/components/WidthProvider.jsx'
+import {
+    BrowserRouter as Router,
+    Route,
+    /* Link */
+} from "react-router-dom";
+import {
+    IframeGridLayout
+} from "./components/IframeGridLayout/IframeGridLayout.jsx"
 
 import './App.css';
-import '../node_modules/react-grid-layout/css/styles.css';
-import '../node_modules/react-resizable/css/styles.css';
 
-const ResponsiveReactGridLayout = WidthProvider(Responsive);
+/* const ResponsiveReactGridLayout = WidthProvider(Responsive); */
+const ResponsiveReactGridLayout = WidthProvider(IframeGridLayout);
 const originalLayouts = getFromLS("layouts") || {};
 
 class ResponsiveLocalStorageLayout extends React.PureComponent {
-    constructor(props){
+    constructor(props) {
         super(props);
         this.state = {
             layouts: JSON.parse(JSON.stringify(originalLayouts))
         };
     }
 
-    static get defaultProps(){
+    static get defaultProps() {
         return {
             className: "layout",
-            cols: { lg: 12, md:10, sm: 6, xs: 4, xss: 2},
+            cols: {
+                lg: 12,
+                md: 10,
+                sm: 6,
+                xs: 4,
+                xss: 2
+            },
             rowHeight: 30
         };
     }
 
-    resetLayout(){
-        this.setState({ layouts: {} });
+    resetLayout() {
+        this.setState({
+            layouts: {}
+        });
     }
 
-    onLayoutChange(layout, layouts){
+    onLayoutChange(layout, layouts) {
         saveToLS("layouts", layouts);
-        this.setState({ layouts });
+        this.setState({
+            layouts
+        });
     }
 
-    render(){
+    render() {
         return (
             <div>
-              {/* <button onClick= {() => this.resetLayout()}> Reset </button> */}
+              <button onClick=
+                      {() =>
+                        {
+                          this.resetLayout();
+                          console.log('click');
+                        }
+                      }> Reset </button>
                 <ResponsiveReactGridLayout
                     className="layout"
                     cols={{ lg: 12, md: 10, sm: 6, xs: 4, xxs: 2}}
@@ -68,20 +95,20 @@ class ResponsiveLocalStorageLayout extends React.PureComponent {
 
 /* module.exports = ResponsiveLocalStorageLayout; */
 
-function getFromLS(key){
+function getFromLS(key) {
     let ls = {};
-    if(global.localStorage){
+    if (global.localStorage) {
         try {
             ls = JSON.parse(global.localStorage.getItem("rgl-8")) || {};
-        } catch(e){
+        } catch (e) {
             /*Just ignore it*/
         }
     }
     return ls[key];
 }
 
-function saveToLS(key, value){
-    if(global.localStorage){
+function saveToLS(key, value) {
+    if (global.localStorage) {
         global.localStorage.setItem(
             "rgl-8",
             JSON.stringify({
@@ -91,26 +118,26 @@ function saveToLS(key, value){
     }
 }
 
-function Test (){
-  return (
-    <div>
+function Test() {
+    return (
+        <div>
       <h2> Test </h2>
       <p> I don't know how the fuck this shit. </p>
       <p> I don't know. Is it wrong for me to say I don't know. </p>
     </div>
-  );
+    );
 }
 
 function App() {
-  return (
-    <Router>
+    return (
+        <Router>
       <div className="App">
         <Route exact path="/" component={ResponsiveLocalStorageLayout} />
         <Route path="/about" component={AboutPage} />
         <Route path="/test" component={Test} />
       </div>
     </Router>
-  );
+    );
 }
 
 export default App;

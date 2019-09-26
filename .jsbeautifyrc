@@ -1,5 +1,5 @@
 {
-  "indent_size": 2,
+  "indent_size": 4,
   "indent_char": " ",
   "eol": "\n",
   "indent_level": 0,
@@ -15,7 +15,7 @@
   "break_chained_methods": true,
   "eval_code": false,
   "unescape_strings": false,
-  "wrap_line_length": 80,
+  "wrap_line_length": 120,
   "wrap_attributes": "auto",
   "wrap_attributes_indent_size": 2,
   "e4x": true,
