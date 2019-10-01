@@ -2,6 +2,10 @@
 https://stackoverflow.com/questions/5645485/detect-mousemove-when-over-an-iframe#15318321
 
 UI feel super sticky and doesn't seem to work.
+
+when some kind of event is happening I probably want some kind of
+global state which will cause all iframes to create an invisible div
+over them so that events can continue to propagate
 * color scheme
 * theme?
 

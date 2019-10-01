@@ -8,6 +8,9 @@ import { perc, setTopLeft, setTransform } from "./utils";
 import classNames from "classnames";
 import type { Element as ReactElement, Node as ReactNode } from "react";
 
+import { connect } from 'react-redux';
+import { dragStart, dragEnd } from '../../redux/actions';
+
 import type {
   ReactDraggableCallbackData,
   GridDragEvent,
@@ -74,7 +77,7 @@ type Props = {
 /**
  * An individual item within a ReactGridLayout.
  */
-export default class GridItem extends React.Component<Props, State> {
+class GridItem extends React.Component<Props, State> {
   static propTypes = {
     // Children must be only a single element
     children: PropTypes.element,
@@ -169,7 +172,8 @@ export default class GridItem extends React.Component<Props, State> {
   state: State = {
     resizing: null,
     dragging: null,
-    className: ""
+    className: "",
+    is_dragging: false
   };
 
   currentNode: HTMLElement;
@@ -424,6 +428,8 @@ export default class GridItem extends React.Component<Props, State> {
    */
   onDragStart = (e: Event, { node }: ReactDraggableCallbackData) => {
     if (!this.props.onDragStart) return;
+    console.log("GridItem onDragStart");
+    this.props.dragStart();
 
     const newPosition: PartialPosition = { top: 0, left: 0 };
 
@@ -488,6 +494,8 @@ export default class GridItem extends React.Component<Props, State> {
   onDragStop = (e: Event, { node }: ReactDraggableCallbackData) => {
     if (!this.props.onDragStop) return;
 
+      this.props.dragEnd();
+
     const newPosition: PartialPosition = { top: 0, left: 0 };
 
     if (!this.state.dragging)
@@ -529,6 +537,7 @@ export default class GridItem extends React.Component<Props, State> {
     e: Event,
     callbackData: { node: HTMLElement, size: Position }
   ) => {
+    console.log("Grid Item onResizeStart")
     this.onResizeHandler(e, callbackData, "onResizeStart");
   };
 
@@ -612,7 +621,7 @@ export default class GridItem extends React.Component<Props, State> {
       style: {
         ...this.props.style,
         ...child.props.style,
-        ...this.createStyle(pos)
+        ...this.createStyle(pos),
       }
     });
 
@@ -625,3 +634,11 @@ export default class GridItem extends React.Component<Props, State> {
     return newChild;
   }
 }
+
+/* function mapStateToProps(state){
+ *     return {
+ *         is_dragging : state.is_dragging
+ *     };
+ * } */
+
+export default connect(null, { dragStart, dragEnd })(GridItem);

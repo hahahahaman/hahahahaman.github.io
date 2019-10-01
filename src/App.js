@@ -1,6 +1,12 @@
 import React from 'react';
 /* import logo from './logo.svg'; */
 import {
+    BrowserRouter as Router,
+    Route,
+    /* Link */
+} from "react-router-dom";
+
+import {
     AboutPage
 } from './components/AboutPage/AboutPage.jsx'
 import {
@@ -8,11 +14,6 @@ import {
 } from './components/ResponsiveIframe/ResponsiveIframe.jsx'
 
 import WidthProvider from './components/react-grid-layout/components/WidthProvider.jsx'
-import {
-    BrowserRouter as Router,
-    Route,
-    /* Link */
-} from "react-router-dom";
 import {
     IframeGridLayout
 } from "./components/IframeGridLayout/IframeGridLayout.jsx"
@@ -130,7 +131,7 @@ function Test() {
 
 function App() {
     return (
-        <Router>
+    <Router>
       <div className="App">
         <Route exact path="/" component={ResponsiveLocalStorageLayout} />
         <Route path="/about" component={AboutPage} />
