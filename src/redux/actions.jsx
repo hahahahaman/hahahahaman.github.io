@@ -1,6 +1,8 @@
 import {
     DRAG_START,
-    DRAG_END
+    DRAG_END,
+    RESIZE_START,
+    RESIZE_END
 } from "./actionTypes";
 
 export const dragStart = () => ({
@@ -15,4 +17,12 @@ export const dragEnd = () => ({
     /* payload: {
      *     is_dragging: false
      * } */
+});
+
+export const resizeStart = () => ({
+    type: RESIZE_START
+});
+
+export const resizeEnd = () => ({
+    type: RESIZE_END
 });

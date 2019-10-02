@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ResponsiveIframe } from '../ResponsiveIframe/ResponsiveIframe.jsx'
+import ResponsiveIframe from '../ResponsiveIframe/ResponsiveIframe.jsx'
 const ResponsiveReactGridLayout = WidthProvider(Responsive);
 const originalLayouts = getFromLS("layouts") || {};
 

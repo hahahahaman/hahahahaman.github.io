@@ -9,9 +9,7 @@ import {
 import {
     AboutPage
 } from './components/AboutPage/AboutPage.jsx'
-import {
-    ResponsiveIframe
-} from './components/ResponsiveIframe/ResponsiveIframe.jsx'
+import ResponsiveIframe from './components/ResponsiveIframe/ResponsiveIframe.jsx'
 
 import WidthProvider from './components/react-grid-layout/components/WidthProvider.jsx'
 import {
@@ -19,6 +17,10 @@ import {
 } from "./components/IframeGridLayout/IframeGridLayout.jsx"
 
 import './App.css';
+
+import {
+    connect
+} from 'react-redux';
 
 /* const ResponsiveReactGridLayout = WidthProvider(Responsive); */
 const ResponsiveReactGridLayout = WidthProvider(IframeGridLayout);
@@ -28,7 +30,9 @@ class ResponsiveLocalStorageLayout extends React.PureComponent {
     constructor(props) {
         super(props);
         this.state = {
-            layouts: JSON.parse(JSON.stringify(originalLayouts))
+            layouts: JSON.parse(JSON.stringify(originalLayouts)),
+            is_dragging: false,
+            is_resizing: false,
         };
     }
 
@@ -121,10 +125,10 @@ function saveToLS(key, value) {
 
 function Test() {
     return (
-        <div>
-      <h2> Test </h2>
-      <p> I don't know how the fuck this shit. </p>
-      <p> I don't know. Is it wrong for me to say I don't know. </p>
+    <div>
+        <h2> Test </h2>
+        <p> I don't know how the fuck this shit. </p>
+        <p> I don't know. Is it wrong for me to say I don't know. </p>
     </div>
     );
 }
