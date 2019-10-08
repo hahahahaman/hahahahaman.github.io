@@ -89,7 +89,6 @@
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
-    "gh-pages": "^2.1.1",
     "lodash": "^4.17.15"
   },
   "jest": {
