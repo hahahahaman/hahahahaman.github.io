@@ -1,4 +1,5 @@
-* Detect event over iframe
+* DONE Detect event over iframe
+  CLOSED: [2019-10-03 Thu 00:40]
 https://stackoverflow.com/questions/5645485/detect-mousemove-when-over-an-iframe#15318321
 
 UI feel super sticky and doesn't seem to work.
@@ -6,6 +7,22 @@ UI feel super sticky and doesn't seem to work.
 when some kind of event is happening I probably want some kind of
 global state which will cause all iframes to create an invisible div
 over them so that events can continue to propagate
+
+---
+
+solution use redux to keep track of when a grid item is being resized or dragged,
+change the style/css of the iframe to `pointer-events: none`, then change it back to
+`pointer-events: auto`
+
+* TODO Create a document
+try to elaborate on my ideas by using what i've built to explain my
+vision in the future.
+
+as i think about it i can then tailor my existing system to fit the
+creation i intend to make
+
+work on a home page.
+
 * color scheme
 * theme?
 

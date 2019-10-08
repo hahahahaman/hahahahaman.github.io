@@ -22,6 +22,8 @@ import {
     connect
 } from 'react-redux';
 
+import styles from './components/AboutPage/AboutPage.module.css';
+
 /* const ResponsiveReactGridLayout = WidthProvider(Responsive); */
 const ResponsiveReactGridLayout = WidthProvider(IframeGridLayout);
 const originalLayouts = getFromLS("layouts") || {};
@@ -66,13 +68,13 @@ class ResponsiveLocalStorageLayout extends React.PureComponent {
     render() {
         return (
             <div>
-              <button onClick=
-                      {() =>
-                        {
-                          this.resetLayout();
-                          console.log('click');
-                        }
-                      }> Reset </button>
+                <button onClick=
+                    {() =>
+                    {
+                    this.resetLayout();
+                    console.log('click');
+                    }
+                    }> Reset </button>
                 <ResponsiveReactGridLayout
                     className="layout"
                     cols={{ lg: 12, md: 10, sm: 6, xs: 4, xxs: 2}}
@@ -82,15 +84,25 @@ class ResponsiveLocalStorageLayout extends React.PureComponent {
                         this.onLayoutChange(layout, layouts)
                     }
                 >
-                    <div key="1" data-grid={{ w: 2, h: 3, x: 0, y: 0, minW: 2, minH: 3}}>
-                      <ResponsiveIframe title="about" src="/about">
-                        <p>Your browser does not support iframes.</p>
-                      </ResponsiveIframe>
+                    <div key="1" data-grid={{ w: 6, h: 15, x: 0, y: 0, minW: 2, minH: 3}}>
+                        <ResponsiveIframe title="about" src="/test">
+                            <p>Your browser does not support iframes.</p>
+                        </ResponsiveIframe>
                     </div>
-                    <div key="2" data-grid={{ w: 2, h: 3, x: 2, y: 0, minW: 2, minH: 3}}>
-                      <ResponsiveIframe title="test" src="/test">
+                    {/* <div key="2" data-grid={{ w: 3, h: 10, x: 4, y: 0, minW: 2, minH: 3}}>
+                        <ResponsiveIframe title="test" src="/test">
                         <p>Your browser does not support iframes.</p>
-                      </ResponsiveIframe>
+                        </ResponsiveIframe>
+                        </div> */}
+                    <div key="3" data-grid={{ w: 12, h: 15, x: 0, y: 15, minW: 2, minH: 3}}>
+                        <ResponsiveIframe title="engelbart" src="http://dougengelbart.org/">
+                            <p>Your browser does not support iframes.</p>
+                        </ResponsiveIframe>
+                    </div>
+                    <div key="4" data-grid={{ w: 6, h: 15, x: 6, y: 0, minW: 2, minH: 3}}>
+                        <ResponsiveIframe title="PG" src="http://paulgraham.com/articles.html">
+                            <p>Your browser does not support iframes.</p>
+                        </ResponsiveIframe>
                     </div>
                 </ResponsiveReactGridLayout>
             </div>
@@ -125,12 +137,35 @@ function saveToLS(key, value) {
 
 function Test() {
     return (
-    <div>
+    <div className={styles.about}>
         <h2> Test </h2>
         <p> I don't know how the fuck this shit. </p>
         <p> I don't know. Is it wrong for me to say I don't know. </p>
     </div>
     );
+}
+
+function PDF_Page(){
+    return(
+        <div className={styles.about}>
+            <div className={styles['side-margins']}>
+                <h1>PDF</h1>
+                <p>huh</p>
+                <p>ok</p>
+            </div>
+        </div>
+    );
+}
+
+function PG(){
+    return(
+        <div className={styles.about}>
+            <div className={styles['side-margins']}>
+                <h1>PDF</h1>
+                <a href='http://paulgraham.com/speak.html'>speak</a>
+            </div>
+        </div>
+    )
 }
 
 function App() {
@@ -140,6 +175,8 @@ function App() {
         <Route exact path="/" component={ResponsiveLocalStorageLayout} />
         <Route path="/about" component={AboutPage} />
         <Route path="/test" component={Test} />
+        <Route path="/pdf_page" component={PDF_Page} />
+        <Route path="/PG" component={PG} />
       </div>
     </Router>
     );

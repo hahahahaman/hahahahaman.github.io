@@ -10,12 +10,11 @@
 
 .side-margins{
   width: 70%;
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-
 
 .test{
   background-color: #EEEEEE;
