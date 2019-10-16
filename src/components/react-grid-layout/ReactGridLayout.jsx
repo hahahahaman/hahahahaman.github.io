@@ -797,8 +797,8 @@ export default class ReactGridLayout extends React.Component < Props, State > {
             });
         } else if (this.state.droppingPosition) {
             const shouldUpdatePosition =
-                this.state.droppingPosition.x != layerX ||
-                this.state.droppingPosition.y != layerY;
+                this.state.droppingPosition.x !== layerX ||
+                this.state.droppingPosition.y !== layerY;
             shouldUpdatePosition && this.setState({
                 droppingPosition
             });
